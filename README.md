@@ -11,3 +11,4 @@ my all projects are here.
 * fun with triangles
 * palindrome birthday
 * profit or loss
+* blogs
