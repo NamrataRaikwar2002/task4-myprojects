@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400;1,600&family=Roboto:wght@300;400;700&display=swap');
-body{
+
+body {
 	font-family: 'Montserrat', sans-serif;
-	font-family: 'Roboto', sans-serif;}
-:root {
-	--primary-color:#0508a0;
-	--white-color:white;
-	--red-color:#e94343;
+	font-family: 'Roboto', sans-serif;
 }
 
-.first_link{
+:root {
+	--primary-color: #0508a0;
+	--white-color: white;
+	--red-color: #e94343;
+}
+
+.first_link {
 	font-style: bold;
 	color: black;
 	text-align: center;
@@ -20,7 +23,8 @@ body{
 
 
 }
-.box3{
+
+.box3 {
 	background: var(--primary-color);
 	border-color: black;
 	border-radius: 6px;
@@ -29,16 +33,17 @@ body{
 	font-size: 17px;
 	/* font-weight:bold; */
 	padding: 10px;
-	
+
 
 
 
 }
-.project{
+
+.project {
 	background: #cdcaf8;
 	text-align: center;
 	margin: 0;
-	border-style:calc();
+	border-style: calc();
 	border-radius: 6px;
 	border-width: 5px;
 	padding-top: 1rem;
@@ -47,31 +52,29 @@ body{
 	border-left: solid;
 	padding-left: 1rem;
 	padding-right: 1rem;
-	/* padding-bottom: 1rem; */
 }
-.project .homepage:hover{
+
+.project .homepage:hover {
 	color: black;
 	font-weight: bold;
 }
 
-.project .second_link{
-	/* border: groove; */
+.project .second_link {
 	border-left: solid;
-	/* border-right: solid; */
 }
 
-.box5{
-	color:var(--red-color);
+.box5 {
+	color: var(--red-color);
 
 }
-             
-.link{
+
+.link {
 	text-decoration: none;
 	color: var(--white-color);
-	padding-right:21px;
+	padding-right: 21px;
 }
 
-#name{
+#name {
 	border-radius: 6px;
 	background-attachment: 90px;
 	background-color: var(--primary-color);
@@ -79,14 +82,13 @@ body{
 	color: var(--white-color);
 
 }
-.second_link{
+
+.second_link {
 	margin: 16px;
 	color: var(--primary-color);
 	text-align: center;
-	/* background:#48e2c8; */
-	border-radius:0.3rem;
+	border-radius: 0.3rem;
 	background-color: var(--white-color);
-	/* padding-right: 9.6px 19.2px; */
 	text-decoration: none;
 	border-width: 0rem;
 	padding: 0.4rem 0.2rem;
@@ -94,83 +96,87 @@ body{
 
 }
 
-.project .second_link:hover{
+.project .second_link:hover {
 	color: black;
 }
-.homepage{
-	/* font-style: bold; */
+
+.homepage {
 	color: var(--white-color);
 	text-align: center;
-	/* background:#48e2c8; */
-	border-radius:0.3rem;
+	border-radius: 0.3rem;
 	background-color: var(--primary-color);
-	/* padding-right: 9.6px 19.2px; */
 	text-decoration: none;
 	border-width: 0rem;
 	padding: 0.4rem 0.2rem;
 }
-.homepage .link:hover{
+
+.homepage .link:hover {
 	color: black;
 	font-weight: bold;
 }
-.bottom{
+
+.bottom {
 	background: var(--primary-color);
 	border-top: 20px;
 	text-decoration: none;
 	font-size: 17px;
-	font-weight:bold;
+	font-weight: bold;
 	padding: 10px;
 	text-align: center;
 	padding-left: 0px;
 	border-radius: 6px;
 
 }
-.logo{
+
+.logo {
 	padding: 20.2px;
 	border-radius: 35%;
 
 }
 
-.box3 .link-active{
-	font-weight:bold;
+.box3 .link-active {
+	font-weight: bold;
 	color: var(--red-color);
-	
+
 }
-.link:hover{
-	color:var(--white-color);
+
+.link:hover {
+	color: var(--white-color);
 	font-weight: bold;
 
 }
-.link:hover:active{
+
+.link:hover:active {
 	color: var(--red-color);
 }
-.bottom .link:hover{
+
+.bottom .link:hover {
 	color: black;
 }
-	
-.blog{
+
+.blog {
 	text-align: center;
 }
 
-.seecode{
+.seecode {
 	text-align: center;
 	font-size: 2rem;
 }
 
 
-.seecodespan{
+.seecodespan {
 	color: var(--red-color)
 }
 
-.blog{
+.blog {
 	display: block;
 	text-align: center;
-	text-size-adjust:initial;
+	text-size-adjust: initial;
 	max-width: 70%;
 	margin: auto;
 }
 
-.delhi{
+.delhi {
 	margin: auto;
 	text-align: center;
 	max-width: 70%;
@@ -178,17 +184,17 @@ body{
 
 }
 
-.bloglink{
+.bloglink {
 	margin: 1rem;
 	color: var(--white-color);
 	text-align: center;
-	border-radius:0.3rem;
+	border-radius: 0.3rem;
 	background-color: var(--primary-color);
 	text-decoration: none;
 	border-width: 0rem;
 	padding: 0.4rem 0.2rem;
 }
 
-.bloglink:hover{
+.bloglink:hover {
 	color: black;
 }
